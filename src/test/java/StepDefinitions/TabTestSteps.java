@@ -22,7 +22,7 @@ public class TabTestSteps {
 	    // Write code here that turns the phrase above into concrete actions
 
 		System.out.println("Browser Open");
-		System.setProperty("webdriver.chrome.driver", "C:/Users/m.saleem/eclipse-workspace/viskonzTest/src/test/resources/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/mansoor/eclipse-workspace/viskonzTest-main/src/test/resources/drivers/chromedriver");
 		
 	    driver = new ChromeDriver();
 	    System.out.println("Browser Open");
