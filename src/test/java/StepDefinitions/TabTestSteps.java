@@ -52,7 +52,7 @@ public class TabTestSteps {
 	@And("I click on third check button")
 	public void i_click_on_third_check_button() {
 	    // Write code here that turns the phrase above into concrete actions
-		driver.findElement(By.id("chkMan")).click();
+		driver.findElement(By.id("chkMango8")).click();
 		System.out.println("I click on third check button");
 	}
 
